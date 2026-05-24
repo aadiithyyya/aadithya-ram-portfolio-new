@@ -30,7 +30,7 @@ export default function Navbar() {
   return (
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__inner">
-        <a href="#" className="navbar__logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+        <a href="#hero" className="navbar__logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           <span className="navbar__bracket">&lt;</span>
           <span>ar</span>
           <span className="navbar__bracket">/&gt;</span>
